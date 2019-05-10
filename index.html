@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>menu</title>
+    <style type="text/css">.decotext{background-color: #FFFFFF; border: 1px solid #A51E2F;border-left: 50px solid #A51E2F; padding: 25px;}
+    .red{background-color: #A51E2F; width:100% }
+    .box {color: #FFF; font-weight: bold; width:100%; height:100%!important; display:inline-block;padding-top:5px;padding-bottom:5px;background-color: #A51E2F;}
+    </style>
+    <style type="text/css">/* ================================================================
+    This copyright notice must be untouched at all times.
+
+    The original version of this stylesheet and the associated (x)html
+    is available at http://www.cssplay.co.uk/menus/final_drop.html
+    Copyright (c) Stu Nicholls. All rights reserved.
+    This stylesheet and the associated (x)html may be modified in any
+    way to fit your requirements.
+    =================================================================== */
+    .menu {width:100%; height:32px; position:relative; z-index:100;border-right:0px solid #A51E2F; font-family:arial, sans-serif;}
+    /* hack to correct IE5.5 faulty box model */
+    * html .menu {width:100%; w\idth:745px;}
+    /* remove all the bullets, borders and padding from the default list styling */
+    .menu ul {padding:0;margin:0;list-style-type:none; text-align:center}
+    .menu ul ul {width:100%; background:#A51E2F;}
+    /* float the list to make it horizontal and a relative positon so that you can control the dropdown menu positon */
+    .menu li {float:left;width:33%;position:relative;} /* 3 entries for top menu */
+    .menu li li {width:100%;position:relative;} /* 1 entry per line in the submenu */
+    /* style the links for the top level */
+    .menu a, .menu a:visited {display:block;font-size:12px;text-decoration:none; color:#fff; width:100%; height:32px; background:#A51E2F; font-weight:bold;}
+    /* a hack so that IE5.5 faulty box model is corrected */
+    * html .menu a, * html .menu a:visited {width:100%; w\idth:138px;}
+
+    /* style the second level background */
+    .menu ul ul a.drop, .menu ul ul a.drop:visited {background:#d4d8bd url(http://www.cssplay.co.uk/menus/breadcrumbs/grey-arrow.gif) no-repeat 130px center;}
+    /* hide the sub levels and give them a positon absolute so that they take up no room */
+    .menu ul ul {visibility:hidden; position:absolute;height:0;top:31px;left:0; width:100%;border:0px solid #000;}
+    /* another hack for IE5.5 */
+    * html .menu ul ul {top:30px;t\op:31px;}
+
+    /* style the table so that it takes no ppart in the layout - required for IE to work */
+    .menu table {position:absolute; top:0; left:0; border-collapse:collapse;;}
+
+    /* style the second level links */
+    .menu ul ul a, .menu ul ul a:visited {background:#A51E2F; color:#FFF; height:auto; line-height:1em; padding:5px 10px; width:100%;border-width:0 px;}
+    /* yet another hack for IE5.5 */
+    * html .menu ul ul a, * html .menu ul ul a:visited {width:100%;w\idth:128px;}
+
+    /* style the top level hover */
+    .menu a:hover, .menu ul ul a:hover{color:#333; background:#EEE;}
+    .menu :hover > a, .menu ul ul :hover > a {color:#333; background:#EEE;}
+
+    /* make the second level visible when hover on first level list OR link */
+    .menu ul li:hover ul,
+    .menu ul a:hover ul{visibility:visible;}
+    </style>
+
+
+  </head>
+  <body>
+    <div class="red"><img alt="" src="https://mp.uu.se/c/wiki/get_page_attachment?p_l_id=172516819&amp;nodeId=172516855&amp;title=Startsida&amp;fileName=logga_2018-03-06.png" style="width: 100px; height: 100px;" /></div>
+
+    <div class="red">
+    <div class="menu">
+    <ul>
+    	<li><span class="box">Information on UUBF</span>
+
+    	<ul>
+    		<li><a href="https://mp.uu.se/group/uubf/wiki/-/wiki/Main/Visit+UUBF">Visit UUBF</a></li>
+    	</ul>
+    	</li>
+    	<li><span class="box">Online Services</span>
+    	<ul>
+    		<li><a href="https://mp.uu.se/group/uubf/wiki/-/wiki/Main/Mailing+lists">Mailing Lists</a></li>
+    		<li><a href="https://mp.uu.se/group/uubf/wiki/-/wiki/Main/Booking+and+invoicing+system+(BOING)">BOING</a></li>
+    		<li><a href="https://mp.uu.se/group/uubf/wiki/-/wiki/Main/Publications">Publications</a></li>
+    	</ul>
+    	</li>
+    	<li><span class="box">Facilities</span>
+    	<ul>
+    		<li><a href="https://mp.uu.se/group/uubf/wiki/-/wiki/Main/Robot">Robot</a></li>
+    		<li><a href="https://mp.uu.se/group/uubf/wiki/-/wiki/Main/Barriären">Barriären</a></li>
+    		<li><a href="https://mp.uu.se/group/uubf/wiki/-/wiki/Main/Fish+lab">Fishlab</a></li>
+    		<li><a href="https://mp.uu.se/group/uubf/wiki/-/wiki/Main/BSL-2+facility">BSL-2 facility</a></li>
+    		<li><a href="https://mp.uu.se/group/uubf/wiki/-/wiki/Main/Analysis+PC">Analysis PC</a></li>
+    	</ul>
+    	</li>
+    </ul>
+    </div>
+    </div>
+
+    <p>&nbsp;</p>
+    <!-- End of header menu part. Due to the structure of the wiki, we cannot include inline frame
+    or the like and have to manually exchange the header when new menu points are added. -->
+  </body>
+</html>
