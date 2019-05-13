@@ -12,40 +12,40 @@
     way to fit your requirements.
     =================================================================== */
 
-    .menu {width:700px; height:32px; position:relative; z-index:100;border-right:0px solid #A51E2F; font-family:arial, sans-serif;}
+    .mymenu {width:700px; height:32px; position:relative; z-index:100;border-right:0px solid #A51E2F; font-family:arial, sans-serif;}
     /* hack to correct IE5.5 faulty box model */
-    * html .menu {width:700px; w\idth:745px;}
+    * html .mymenu {width:700px; w\idth:745px;}
     /* remove all the bullets, borders and padding from the default list styling */
-    .menu ul {padding:0;margin:0;list-style-type:none; text-align:center; width:100%}
-    .menu ul ul {width:100%; background:#A51E2F;}
+    .mymenu ul {padding:0;margin:0;list-style-type:none; text-align:center; width:100%}
+    .mymenu ul ul {width:100%; background:#A51E2F;}
     /* float the list to make it horizontal and a relative positon so that you can control the dropdown menu positon */
-    .menu li {float:left;width:33%;position:relative;} /* 3 entries for top menu */
-    .menu li li {width:100%;position:relative;} /* 1 entry per line in the submenu */
+    .mymenu li {float:left;width:33%;position:relative;} /* 3 entries for top menu */
+    .mymenu li li {width:100%;position:relative;} /* 1 entry per line in the submenu */
 
     /* style the links for the top level */
-    .menu a, .menu a:visited {display:block;font-size:12px;text-decoration:none; color:#fff; width:100%; height:32px; background:#A51E2F; font-weight:bold;}
+    .mymenu a, .mymenu a:visited {display:block;font-size:12px;text-decoration:none; color:#fff; width:100%; height:32px; background:#A51E2F; font-weight:bold;}
     /* a hack so that IE5.5 faulty box model is corrected */
-    * html .menu a, * html .menu a:visited {width:100%; w\idth:138px;}
+    * html .mymenu a, * html .mymenu a:visited {width:100%; w\idth:138px;}
 
     /* style the second level background */
-    .menu ul ul a.drop, .menu ul ul a.drop:visited {background:#d4d8bd}
+    .mymenu ul ul a.drop, .mymenu ul ul a.drop:visited {background:#d4d8bd}
     /* hide the sub levels and give them a positon absolute so that they take up no room */
-    .menu ul ul {visibility:hidden; position:absolute;height:0;top:31px;left:0; width:100%;border:0px solid #000;}
+    .mymenu ul ul {visibility:hidden; position:absolute;height:0;top:31px;left:0; width:100%;border:0px solid #000;}
     /* another hack for IE5.5 */
-    * html .menu ul ul {top:30px;t\op:31px;}
+    * html .mymenu ul ul {top:30px;t\op:31px;}
 
     /* style the table so that it takes no ppart in the layout - required for IE to work */
-    .menu table {position:absolute; top:0; left:0; border-collapse:collapse;;}
+    .mymenu table {position:absolute; top:0; left:0; border-collapse:collapse;;}
 
     /* style the second level links */
-    .menu ul ul a, .menu ul ul a:visited {background:#A51E2F; color:#FFF; height:auto; line-height:1em; padding:5px 10px; width:100%;border-width:0 px;}
+    .mymenu ul ul a, .mymenu ul ul a:visited {background:#A51E2F; color:#FFF; height:auto; line-height:1em; padding:5px 10px; width:100%;border-width:0 px;}
     /* yet another hack for IE5.5 */
-    * html .menu ul ul a, * html .menu ul ul a:visited {width:100%;w\idth:128px;}
+    * html .mymenu ul ul a, * html .mymenu ul ul a:visited {width:100%;w\idth:128px;}
 
     /* style the top level hover */
-    .menu a:hover, .menu ul ul a:hover{color:#333; background:#EEE;}
-    .menu :hover > a, .menu ul ul :hover > a {color:#333; background:#EEE;}
+    .mymenu a:hover, .mymenu ul ul a:hover{color:#333; background:#EEE;}
+    .mymenu :hover > a, .mymenu ul ul :hover > a {color:#333; background:#EEE;}
 
     /* make the second level visible when hover on first level list OR link */
-    .menu ul li:hover ul,
-    .menu ul a:hover ul{visibility:visible;}
+    .mymenu ul li:hover ul,
+    .mymenu ul a:hover ul{visibility:visible;}
