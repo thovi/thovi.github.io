@@ -12,9 +12,9 @@
     way to fit your requirements.
     =================================================================== */
 
-    .mymenu {width:700px; height:32px; position:relative; z-index:100;border-right:0px solid #A51E2F; font-family:arial, sans-serif;}
+    .mymenu {width:708px; height:32px; position:relative; z-index:100;border-right:0px solid #A51E2F; font-family:arial, sans-serif;}
     /* hack to correct IE5.5 faulty box model */
-    * html .mymenu {width:700px; w\idth:745px;}
+    * html .mymenu {width:708px; w\idth:745px;}
     /* remove all the bullets, borders and padding from the default list styling */
     .mymenu ul {padding:0;margin:0;list-style-type:none; text-align:center; width:100%}
     .mymenu ul ul {width:100%; background:#A51E2F;}
